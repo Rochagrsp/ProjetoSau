@@ -1,0 +1,38 @@
+body{
+    background-color: #0f172a;
+    color: white;
+    font-family:Arial;
+    margin:0;
+
+}
+
+header{
+    background-color: #111827;
+    padding:20px;
+    text-align:center;
+
+
+}
+
+#tutoriais{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    padding:40px;
+    gap:20px;
+
+}
+
+.card{
+    background-color:#193599;
+    padding: 25px;
+    border-radius: 16px;
+    margin-bottom: 20px;
+    box-shadow: 0 8px 20px black;
+    cursor: pointer;
+
+}
+
+.card:hover{
+    transform: scale(1.03);
+
+}
